@@ -5,7 +5,7 @@
 
 var twitter_username = 'nolancaudill';
 function twitter_callback (resp){
-    if(resp.status == undefined) return;
+    if(typeof resp.status == 'undefined') return;
 
     var text = ' ' + resp.status.text;
     text = text.replace(/(\s)(http(s)?:\/\/\S+)/gi, '$1<a href="$2">$2</a>');
