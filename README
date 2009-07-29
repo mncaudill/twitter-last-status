@@ -12,7 +12,7 @@ It is covered under the BSD License.
 
 Usage (an example file is also included):
 
-1) Set the twitter_username variable to the desired user.
+1) Set the 'username' variable to the desired user.
 2) Include the script on any HTML page.
 3) The script looks for a HTML div on the page with id of 'twitter-last-status'
     to fill in after the callback.
